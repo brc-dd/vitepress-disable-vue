@@ -19,6 +19,7 @@ Simple POC to wrap all the content in `v-pre`.
 ## Considerations
 
 - Might break theme styling if child combinator is used with `<Content>`.
+  - The default theme has no such style, so it works fine as of now.
 - Styles and script blocks are still parsed and evaluated.
   - To remove them, reset the `env.sfcBlocks` after render (just before returning).
 - VitePress doesn't use `env.sfcBlocks.template`, so there is no need to add `v-pre` there.
