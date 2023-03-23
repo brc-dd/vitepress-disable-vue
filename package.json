@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "devDependencies": {
+    "vitepress": "1.0.0-alpha.61",
+    "vue": "^3.2.47"
+  }
+}
